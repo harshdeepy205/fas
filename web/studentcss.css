@@ -1,0 +1,142 @@
+/* CSS Document */
+/*input{
+	margin-bottom: 10px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-color: grey;
+	border-width: 1px;
+
+}
+body{
+
+    background-color:  #EEEEEE;
+  	background:url(images/International-qualifications.jpg) no-repeat;
+    background-size: cover;
+	/*background-position:center;
+	margin:0px;
+	font-family: "segoe ui light";
+	color:#FFFFFF;
+}
+
+#btn{
+	padding: 10px 20px;
+	border: 0px;
+	border-radius: 5px;
+	background-color: #2196F3;
+    color: white;
+	
+}
+#btn:hover
+{
+	transition: 0.2s;
+	padding: 11px 21px;
+	border: 0px;
+	border-radius: 5px;
+	background-color: #2196F3;
+    color: white;
+    cursor: pointer;
+	
+
+}
+.register-box{
+	width:566px;
+	background-color:white;
+	background: black;
+	color:#FFFFFF;
+	height: 675px;
+	margin:70px auto;
+	border-radius: 20px;
+	box-shadow: 2px 5px 7px #BDBDBD;
+	padding: 20px
+	
+	
+}
+
+#field{
+width:350px;
+height:35px;
+background: rgba(0,0,0,0.5);
+color:#FFFFFF;
+
+}
+
+.opt{
+  
+	border-color: grey;
+	margin-bottom: 10px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	width: 350px;
+	background: rgba(0,0,0,0.5);
+	color:#FFFFFF;
+}*/
+
+input{
+	margin-bottom: 10px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-color: grey;
+	border-width: 1px;
+
+}
+body{
+
+    background-color:  #EEEEEE;
+  	background:url(student.jpg);
+    background-size: cover;;
+	margin:0px;
+	font-family: "segoe ui light";
+	color:black;
+}
+
+#btn{
+	padding: 10px 20px;
+	border: 0px;
+	border-radius: 5px;
+	background-color: #2196F3;
+    color: white;
+	
+}
+#btn:hover
+{
+	transition: 0.2s;
+	padding: 11px 21px;
+	border: 0px;
+	border-radius: 5px;
+	background-color: #2196F3;
+    color: white;
+    cursor: pointer;
+	
+
+}
+.register-box{
+	width:600px;
+	background-color:white;
+	color: black;
+	height: 700px;
+	margin:70px auto;
+	border-radius: 20px;
+	/*box-shadow: 10px 10px 15px #BDBDBD;*/
+	padding: 30px;
+	background:rgba(0px 0px 0.2px 0.2px);
+
+	
+}
+
+#field{
+width:350px;
+height:35px;
+}
+
+.opt{
+  
+	border-color: grey;
+	margin-bottom: 10px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	width: 350px;
+}

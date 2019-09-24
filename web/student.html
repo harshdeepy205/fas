@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet"  href="studentcss.css">
+
+	<title>Registration Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body >
+	<form action="RegisterChecker" method="post">
+		
+	<div class="register-box">
+		<h1 align="center">Registration Form</h1>
+		
+		<table class="table" cellspacing="10">
+			<tr>
+				<td><b>Name:</b></td>
+				<td><input type="text" name="name" placeholder="Enter Name here" id="field"></td>
+			</tr>
+			
+		
+			<tr>
+				<td><b >Enrollment Number:</b></td>
+				<td><input type="text" name="enrollment" placeholder="Enter Name here" id="field"></td>
+			</tr>
+			<tr>
+				<td><b >Batch:</b></td>
+				<td><SELECT name="batch" class="opt">
+				<OPTION>-----Batch-----</OPTION>			
+				<OPTION>2016-17</OPTION>
+				<OPTION>2017-18</OPTION>
+				<OPTION>2018-19</OPTION>
+				<OPTION>2019-20</OPTION>
+						</SELECT></td>
+			</tr>
+			<tr>
+				<td><b >Select Branch:</b></td>
+				<td>	<SELECT name="branch" class="opt">
+				<OPTION>-----Branch-----</OPTION>			
+				<OPTION>Computer Science</OPTION>
+				<OPTION>Mechanical</OPTION>
+				<OPTION>Electrical and Electronics</OPTION>
+				<OPTION>Electronic and Communication</OPTION>
+				<OPTION>Information Technology</OPTION>
+				<OPTION>Civil</OPTION>
+						</SELECT>
+				</td>
+			</tr>
+			<tr>
+				<td><b>Date of Birth:</b></td>
+				<td><input type="date" name="date"  class="opt"></td>
+			</tr>
+			<tr>
+				<td><b>Email:</b></td>
+				<td><input type="text" name="email" placeholder="Enter Email here" id="field"></td>
+			</tr>
+			<tr>
+				<td><b>Password:</b></td>
+				<td><input type="password" name="password" placeholder="Enter Password here" id="field"></td>
+			</tr>
+			<tr>
+				<td><b >Confirm Password:</b></td>
+				<td><input type="password" name="cpassword" placeholder="Enter Password again" id="field"></td>
+			</tr>
+				
+
+			<tr>
+				<td><input id="btn" type="submit" name="Register"/></td>
+				<td><input id="btn" type="reset" name="Clear" value="Clear"/></td>
+			</tr>
+			
+		</table>
+			
+			
+			
+		
+</div>
+</form>
+</body>
+</html>
