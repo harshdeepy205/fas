@@ -33,7 +33,7 @@ public class RegistorAuthenticator {
         System.out.println(password);
          try
         {
-            Connection con=DBConnector.getConnection();
+            
             Statement st=con.createStatement();
             String query1="Select E_no from student where E_no='"+enrollment+"'";
             ResultSet rs=st.executeQuery(query1);

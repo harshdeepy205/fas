@@ -25,7 +25,7 @@ public class FacultyAuthenticator {
             String fid=fuser.getF_id();
             String fname=fuser.getF_name();
             String fmail=fuser.getF_mail();
-            String fpassword=fuser.getFpassword();
+            String fpassword=fuser.getUpassword();
             String department=fuser.getDeparment();
             String dob=fuser.getDob();
             

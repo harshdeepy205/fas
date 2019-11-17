@@ -37,10 +37,10 @@ public class FacRegisterChecker extends HttpServlet {
        fuser.setF_id(F_id);
        fuser.setF_name(F_name);
        fuser.setF_mail(F_mail);
-       fuser.setFpassword(fpassword);
+       fuser.setUpassword(fpassword);
        fuser.setDeparment(Department);
        fuser.setDob(dob);
-       System.out.println(fuser.getFpassword());
+       System.out.println(fuser.getUpassword());
        FacultyAuthenticator fauthenticator=new FacultyAuthenticator();
        boolean register=fauthenticator.isRegister(fuser);
         if(register)

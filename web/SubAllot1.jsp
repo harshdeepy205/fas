@@ -1,14 +1,19 @@
 <%-- 
-    Document   : allotsub
-    Created on : Sep 23, 2019, 4:29:29 PM
+    Document   : SubAllot1
+    Created on : Oct 5, 2019, 1:34:00 AM
     Author     : Manju
 --%>
 
-<%@page import="java.util.Iterator"%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
+       
+        
+            
+     <%@page import="java.util.Iterator"%>
 <%@page import="java.util.List"%>
 <%@page import="dto.SubjectDTO"%>
 <%@page import="dao.SubjectDAO"%>
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -16,7 +21,7 @@
         <title>Allot Sub</title>
     </head>
     <body>
-         <form action="SubAllot2.jsp"  >
+         <form action="SubAllot.jsp"  >
             
            
             <table>
@@ -51,16 +56,16 @@
             
             
             <%
-            String department= request.getParameter("Department");
-            System.out.println(department);
+            String Department= request.getParameter("Department");
+            System.out.println(Department);
             SubjectDAO a1=new SubjectDAO();
-           List<SubjectDTO> l1= a1.fetchSubData(department);
-           
+           List<SubjectDTO> l1= a1.fetchSubData(Department);
+            boolean on=false;
            Iterator<SubjectDTO> i1= l1.iterator();
            
             
             
-            %><form action="">
+            %><form action="SubAllot1">
             <table border="3" width="500" >
         <tr>
         
@@ -81,9 +86,8 @@
          <tr>
         <td><%=s1.getF_id() %></td>
          <input type="text" name="F_id" value="<% s1.getF_id(); %>">
-        <td><%=s1.getF_Name() %></td>
+        <td><%= s1.getF_Name() %></td>
         <input type="text" name="F_Name" value="<% s1.getF_Name(); %>">
-        <input type="text" name="Department" value="<%=department %>">
         <td><input type="submit" value="ALlot"></td>
         
     </tr>

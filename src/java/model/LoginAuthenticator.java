@@ -28,7 +28,7 @@ public class LoginAuthenticator {
              Statement st=DBConnector.getStatement();
             
              
-             String query="Select upassword from "+option+" where E_no='"+username+"'";
+             String query="Select upassword from "+option+" where F_id='"+username+"'";
               System.out.println("Query= "+query);
             ResultSet rs=st.executeQuery(query);
             if(rs.next())

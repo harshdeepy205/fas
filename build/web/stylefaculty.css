@@ -1,0 +1,66 @@
+input{
+	margin-bottom: 10px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-color: grey;
+	border-width: 1px;
+
+}
+body{
+
+    background-color:  #EEEEEE;
+  	background:url(ai-study.jpg) no-repeat;
+    background-size: cover;;
+	margin:0px;
+	font-family: "segoe ui light";
+}
+
+#btn{
+	padding: 10px 20px;
+	border: 0px;
+	border-radius: 5px;
+	background-color: #2196F3;
+    color: white;
+	
+}
+#btn:hover
+{
+	transition: 0.2s;
+	padding: 11px 21px;
+	border: 0px;
+	border-radius: 5px;
+	background-color: #2196F3;
+    color: white;
+    cursor: pointer;
+	
+
+}
+.register-box{
+	width:550px;
+	background-color:white;
+	color: black;
+	height: 540px;
+	margin:70px auto;
+	border-radius: 20px;
+	/*box-shadow: 10px 10px 15px #BDBDBD;*/
+	padding: 30px;
+	background:rgba(0px 0px 0.2px 0.2px);
+
+	
+}
+
+#field{
+width:350px;
+height:35px;
+}
+
+.opt{
+  
+	border-color: grey;
+	margin-bottom: 10px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	width: 350px;
+}

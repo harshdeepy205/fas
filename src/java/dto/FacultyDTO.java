@@ -11,7 +11,7 @@ package dto;
  */
 public class FacultyDTO {
 
-   private String F_id,F_name,F_mail,fpassword,Deparment,dob;
+   private String F_id,F_name,F_mail,upassword,Deparment,dob;
 
     public String getF_id() {
         return F_id;
@@ -37,12 +37,12 @@ public class FacultyDTO {
         this.F_mail = F_mail;
     }
 
-    public String getFpassword() {
-        return fpassword;
+    public String getUpassword() {
+        return upassword;
     }
 
-    public void setFpassword(String fpassword) {
-        this.fpassword = fpassword;
+    public void setUpassword(String fpassword) {
+        this.upassword = fpassword;
     }
 
     public String getDeparment() {
